@@ -108,3 +108,5 @@ Step 6: go to application/controllers/demo.php  change code as per your need
 
 Step 7 : application/models/Usermodel.php in this file all function available modify as per your need 
 
+
+![image](https://user-images.githubusercontent.com/67836897/124067208-a13dc580-d9ff-11eb-93a7-704aae052979.png)
