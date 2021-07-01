@@ -115,6 +115,4 @@ Step 7 : application/models/Usermodel.php in this file all function available mo
 *********************
 Screenshots of project 
 *********************
-
-
-![alt text](https://github.com/ravivaghela1211/Simple-REST-Api-Codeigniter/blob/master/Screenshots/)
+(https://github.com/ravivaghela1211/Simple-REST-Api-Codeigniter/blob/master/Screenshots/)
