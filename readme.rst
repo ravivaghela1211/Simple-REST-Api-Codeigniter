@@ -68,3 +68,44 @@ Acknowledgement
 
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+
+
+
+*******************
+Project description 
+******************
+Step 1: create your databaase and connect to database 
+go to application/config/database.php change database to your database name.
+
+Step 2: create tabel keys 
+CREATE TABLE `keys` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `key` varchar(40) NOT NULL,
+  `level` int(2) NOT NULL,
+  `ignore_limits` tinyint(1) NOT NULL DEFAULT '0',
+  `is_private_key` tinyint(1) NOT NULL DEFAULT '0',
+  `ip_addresses` text,
+  `date_created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+Step 3: create users table for crud operation 
+CREATE TABLE `users` (
+  `id` int(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `city` varchar(200) NOT NULL,
+  `spi` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+Step 4: enter key in keys table this key used in api authenticate 
+
+Step 5: got to rest.php  
+   $config['rest_valid_logins'] = ['admin' => '1234']; change id password as per your need
+	
+Step 6: go to application/controllers/demo.php  change code as per your need
+
+Step 7 : application/models/Usermodel.php in this file all function available modify as per your need 
+
+
