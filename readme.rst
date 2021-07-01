@@ -109,7 +109,12 @@ Step 6: go to application/controllers/demo.php  change code as per your need
 Step 7 : application/models/Usermodel.php in this file all function available modify as per your need 
 
 
+
+
+
 *********************
 Screenshots of project 
 *********************
+
+
 ![alt text](https://github.com/ravivaghela1211/Simple-REST-Api-Codeigniter/blob/master/Screenshots/)
